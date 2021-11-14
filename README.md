@@ -21,3 +21,9 @@ TP Projet react native sur le street art en collaboration avec Alban Jamon
 		width="210"
 		alt="Capture 4"
 		src="https://github.com/zackpathou/streetArtProjet_RN/blob/master/assets/images/git/streetArt4.jpeg">
+		
+## Install
+
+npm install
+
+expo start
