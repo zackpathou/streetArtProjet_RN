@@ -50,10 +50,15 @@ function PhotographyScreen({ navigation }) {
       return [
         {label: `All Photos (${countDropDownItems('all')})` , value: 'all'},
         {label: `BAMBI (${countDropDownItems('BAMBI')})`, value: 'BAMBI'},
-        {label: `Life on the railroads (${countDropDownItems('india')})`, value: 'india'},
-        {label: `Street Photography (${countDropDownItems('street')})`, value: 'street'},
-        {label: `Kids (${countDropDownItems('kids')})`, value: 'kids'},
-        {label: `Animals (${countDropDownItems('animals')})`, value: 'animals'},
+        {label: `CHICKY (${countDropDownItems('CHICKY')})`, value: 'CHICKY'},
+        {label: `CAL (${countDropDownItems('CAL')})`, value: 'CAL'},
+        {label: `CHIENPO (${countDropDownItems('CHIENPO')})`, value: 'CHIENPO'},
+        {label: `CHUFY (${countDropDownItems('CHUFY')})`, value: 'CHUFY'},
+        {label: `EAGLE (${countDropDownItems('EAGLE')})`, value: 'EAGLE'},
+        {label: `JENA (${countDropDownItems('JENA')})`, value: 'JENA'},
+        {label: `JUNE (${countDropDownItems('JUNE')})`, value: 'JUNE'},
+        {label: `LOODZ (${countDropDownItems('LOODZ')})`, value: 'LOODZ'},
+        {label: `PONCE (${countDropDownItems('PONCE')})`, value: 'PONCE'},
     ];
   }
 

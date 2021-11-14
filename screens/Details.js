@@ -3,7 +3,7 @@ import { View, Image, Dimensions, Text } from 'react-native';
 import ImageZoom from 'react-native-image-pan-zoom';
 
 export function DetailsScreen({ route }) {
-    const { src, width, height } = route.params;
+    const { src, width, height, } = route.params;
     const windowWidth = Dimensions.get('window').width;
     const windowHeight = Dimensions.get('window').height;        
     const ratio = width / windowWidth;
@@ -15,8 +15,8 @@ export function DetailsScreen({ route }) {
           <Image source={src} style={{ height: calculatedHeight, width: windowWidth, resizeMode: 'cover' }} />
         </ImageZoom>
         <View>
-        
-        </View>              
+
+        </View>             
       </View>
     );
   }
