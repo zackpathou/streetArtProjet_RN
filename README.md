@@ -9,4 +9,5 @@ TP Projet react native sur le street art en collaboration avec Alban Jamon
 		width="210"
 		alt="Capture 1"
 		<img
+		width="210"
 		src="https://zupimages.net/up/21/45/epnn.jpeg">
