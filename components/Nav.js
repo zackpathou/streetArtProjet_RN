@@ -64,12 +64,13 @@ const styles = StyleSheet.create({
     aboutIconInactive: {
         height: 35, 
         width: 35,
+        
     }, 
     aboutIconActive: {
       height: 35, 
       width: 35, 
       borderRadius: 25,  
       borderWidth: 2, 
-      borderColor: activeTintColor
+      borderColor: activeTintColor,
   },             
   });

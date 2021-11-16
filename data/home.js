@@ -70,5 +70,119 @@ export default [
         linkTo: 'Photography',
         text: 'Eagle',
         category: 'Eagle'
+    },
+    {
+        src: require('../assets/images/Emaxp/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Emaxp',
+        category: 'Emaxp'
     },                  
+    {
+        src: require('../assets/images/Floé/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Floé',
+        category: 'Floé'
+    },                  
+    {
+        src: require('../assets/images/Helene_Hurbin/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Helene Hurbin',
+        category: 'Helene Hurbin'
+    },                  
+    {
+        src: require('../assets/images/Hetaone/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'hetaOne',
+        category: 'HetaOne'
+    },                  
+    {
+        src: require('../assets/images/In_The_Woup/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'In_The_Woup',
+        category: 'In_The_Woup'
+    },                  
+    {
+        src: require('../assets/images/June_Pla/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'June Pla',
+        category: 'June Pla'
+    },      
+    {
+        src: require('../assets/images/Katre/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Katre',
+        category: 'Katre'
+    },
+    {
+        src: require('../assets/images/KHWEZI/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'KHWEZI',
+        category: 'KHWEZI'
+    },        
+    {
+        src: require('../assets/images/Lady_Bug/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Lady Bug',
+        category: 'Lady Bug'
+    },  
+    {
+        src: require('../assets/images/Legolenz/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'LegoLenz',
+        category: 'LegoLenz'
+    },      
+    {
+        src: require('../assets/images/Loodz/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Loodz',
+        category: 'Loodz'
+    },  
+    {
+        src: require('../assets/images/Madame_de_Papier/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Madame De Papier',
+        category: 'Madame De Papier'
+    },  
+    {
+        src: require('../assets/images/Mars_Yahl/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Mars Yahl',
+        category: 'Mars Yahl'
+    },  
+    {
+        src: require('../assets/images/Osru/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Osru',
+        category: 'Osru'
+    },  
+    {
+        src: require('../assets/images/Ponce/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Ponce',
+        category: 'Ponce'
+    },  
+    {
+        src: require('../assets/images/Quentin_DMR/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Quentin DMR',
+        category: 'Quentin DMR'
+    },  
+    {
+        src: require('../assets/images/Spheo/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Spheo',
+        category: 'Spheo'
+    },  
+    {
+        src: require('../assets/images/Tim_Zdey/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Tim Zdey',
+        category: 'Tim Zdey'
+    },  
+    {
+        src: require('../assets/images/Toki/1.jpg'),      
+        linkTo: 'Photography',
+        text: 'Toki',
+        category: 'Toki'
+    },  
   ];
