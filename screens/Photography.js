@@ -6,6 +6,7 @@ import { createStackNavigator } from '@react-navigation/stack';
 import photos from '../data/photography.js'
 import { FlatGrid } from 'react-native-super-grid';
 import {GridItem} from '../components/GridItem';
+import { ScrollView } from 'react-native-gesture-handler';
 
 const paddingElement = 5;
 const paddingElementCount = 4;
@@ -60,7 +61,28 @@ function PhotographyScreen({ navigation }) {
         {label: `Chienpo (${countDropDownItems('Chienpo')})`, value: 'Chienpo'},
         {label: `Chufy (${countDropDownItems('Chufy')})`, value: 'Chufy'},
         {label: `Eagle (${countDropDownItems('Eagle')})`, value: 'Eagle'},
-    ];
+        {label: `Emaxp (${countDropDownItems('Emaxp')})`, value: 'Emaxp'},
+        {label: `Floé (${countDropDownItems('Floé')})`, value: 'Floé'},
+        {label: `Helene Hurbin (${countDropDownItems('Helene Hurbin')})`, value: 'Helene Hurbin'},
+        {label: `HetaOne (${countDropDownItems('HetaOne')})`, value: 'HetaOne'},
+        {label: `In_The_Woup (${countDropDownItems('In_The_Woup')})`, value: 'In_The_Woup'},
+        {label: `June Pla (${countDropDownItems('June Pla')})`, value: 'June Pla'},
+        {label: `Katre (${countDropDownItems('Katre')})`, value: 'Katre'},
+        {label: `KHWEZI (${countDropDownItems('KHWEZI')})`, value: 'KHWEZI'},
+        {label: `Lady Bug (${countDropDownItems('Lady Bug')})`, value: 'Lady Bug'},
+        {label: `Lady Bug (${countDropDownItems('Lady Bug')})`, value: 'Lady Bug'},
+        {label: `LegoLenz (${countDropDownItems('LegoLenz')})`, value: 'LegoLenz'},
+        {label: `Loodz (${countDropDownItems('Loodz')})`, value: 'Loodz'},
+        {label: `Madame De Papier (${countDropDownItems('Madame De Papier')})`, value: 'Madame De Papier'},
+        {label: `Mars Yahl (${countDropDownItems('Mars Yahl')})`, value: 'Mars Yahl'},
+        {label: `Osru (${countDropDownItems('Osru')})`, value: 'Osru'},
+        {label: `Ponce (${countDropDownItems('Ponce')})`, value: 'Ponce'},
+        {label: `Quentin DMR (${countDropDownItems('Quentin DMR')})`, value: 'Quentin DMR'},
+        {label: `Spheo (${countDropDownItems('Spheo')})`, value: 'Spheo'},
+        {label: `Tim Zdey (${countDropDownItems('Tim Zdey')})`, value: 'Tim Zdey'},
+        {label: `Toki (${countDropDownItems('Toki')})`, value: 'Toki'},
+        
+      ];
   }
 
   const dropDownItems = React.useMemo(() => getdropDownItems(), []);
@@ -79,14 +101,17 @@ function PhotographyScreen({ navigation }) {
             itemStyle={{ justifyContent: 'flex-start', paddingLeft:10, height: 40 }}
             dropDownStyle={{backgroundColor: '#ffff'}}
             onChangeItem={item => setCategory(item.value)}
-        />        
-        <FlatGrid
-            itemDimension={widthElement}        
-            data={gridData}        
-            style={{ flex: 1, padding: paddingElement }}
-            spacing={0}
-            renderItem={renderItem}
-        /> 
+        />      
+        <ScrollView>  
+          <FlatGrid
+              itemDimension={widthElement}        
+              data={gridData}        
+              style={{ flex: 1, padding: paddingElement }}
+              spacing={0}
+              renderItem={renderItem}
+          /> 
+        </ScrollView>  
+
       </SafeAreaView>
     );
   }

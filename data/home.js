@@ -92,7 +92,7 @@ export default [
     {
         src: require('../assets/images/Hetaone/1.jpg'),      
         linkTo: 'Photography',
-        text: 'hetaOne',
+        text: 'HetaOne',
         category: 'HetaOne'
     },                  
     {

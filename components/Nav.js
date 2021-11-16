@@ -3,11 +3,12 @@ import { View, Image, StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { HomeScreen } from '../screens/Home'
-import { InterventionStackScreen } from '../screens/Intervention'
-import { PhotographyStackScreen } from '../screens/Photography'
-import { MapStackScreen } from '../screens/Map'
-import { AboutScreen } from '../screens/About'
-import { TabBarIcon } from './TabBarIcon'
+import { InterventionStackScreen } from '../screens/Intervention';
+import { PhotographyStackScreen } from '../screens/Photography';
+import { MapStackScreen } from '../screens/Map';
+import { AboutScreen } from '../screens/About';
+import { TabBarIcon } from './TabBarIcon';
+import FlatListArtist from './FlatListArtist';
 
 const Tab = createBottomTabNavigator();
 const activeTintColor = 'rgb(89, 128, 218)';
@@ -40,7 +41,7 @@ export function Nav () {
                         <Tab.Screen name="Photography" component={PhotographyStackScreen}/>
                         <Tab.Screen name="Map" component={MapStackScreen} />                        
                         <Tab.Screen name="About" component={AboutScreen} />                                             
-                    </Tab.Navigator>                                                                
+                    </Tab.Navigator>                                                             
                 </NavigationContainer>                
             </View>
         );        
