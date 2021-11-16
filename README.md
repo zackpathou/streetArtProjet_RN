@@ -1,5 +1,5 @@
 <h1 align="center">
-Projet application street art sur React Native en collaboration avec Alban Jamon 
+Projet application street art sur React Native & expo go en collaboration avec Alban Jamon 
 </h1>
 ## Screenshots
 
@@ -19,3 +19,7 @@ Projet application street art sur React Native en collaboration avec Alban Jamon
 		width="210"
 		alt="Capture 4"
 		src="https://github.com/zackpathou/streetArtProjet_RN/blob/main/assets/readme/WhatsApp%20Image%202021-11-15%20at%2023.03.20.jpeg">
+## Install
+
+- npm install
+- expo start
